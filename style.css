@@ -8,10 +8,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
 
-*,
+*
 *::before,
 *::after {
     font-family: "JetBrains Mono", monospace !important;
+}
+
+#wrapper a {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px; /* optional spacing */
 }
 
 html {
